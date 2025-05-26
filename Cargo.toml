@@ -1,4 +1,4 @@
-use_context[package]
+[package]
 name = "dioxus-i18n"
 version = "0.4.3"
 edition = "2021"
