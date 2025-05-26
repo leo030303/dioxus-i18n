@@ -9,9 +9,7 @@ use unic_langid::langid;
 
 use std::path::PathBuf;
 
-#[allow(unreachable_code)]
 fn main() {
-    panic!("Freya doesn't support Dioxus 0.6 yet");
     launch_with_props(app, "freya + i18n", (300.0, 200.0));
 }
 
