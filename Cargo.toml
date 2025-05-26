@@ -10,7 +10,7 @@ readme = "./README.md"
 categories = ["accessibility", "gui", "localization", "internationalization"]
 
 [dependencies]
-dioxus-lib = { git="https://github.com/leo030303/dioxus", branch="main", default-features = false, features = [
+dioxus-lib = { git="https://github.com/leo030303/dioxus", branch="update_global_hotkey", default-features = false, features = [
     "hooks",
     "macro",
     "signals",
