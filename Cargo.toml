@@ -10,11 +10,11 @@ readme = "./README.md"
 categories = ["accessibility", "gui", "localization", "internationalization"]
 
 [dependencies]
-dioxus-lib = { git="https://github.com/leo030303/dioxus", branch="update_global_hotkey", default-features = false, features = [
+dioxus-lib = { git="https://github.com/DioxusLabs/dioxus", rev="6cc3797", default-features = false, features = [
     "hooks",
     "macro",
     "signals",
-] }
+]}
 fluent = "0.16.1"
 thiserror = "2.0.9"
 unic-langid = { version = "0.9.5", features = ["macros"] }
